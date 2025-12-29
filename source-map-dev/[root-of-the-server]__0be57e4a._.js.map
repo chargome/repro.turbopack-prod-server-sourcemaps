@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///Users/charlygomez/Desktop/code/example-projects/deleteme/turbopack-sourcemap-names/my-app/app/route-handler/route.ts"],"sourcesContent":["function throwMe() {\n  throw new Error(\"Ouch!\");\n}\n\nexport async function GET() {\n  try {\n    throwMe();\n  } catch (e: unknown) {\n    if (e instanceof Error) {\n      console.error(\"ErrorStack: \", e.stack);\n    }\n  }\n\n  return new Response(\"Hello, world!\");\n}\n"],"names":[],"mappings":";;;;AAAA,SAAS;IACP,MAAM,IAAI,MAAM;AAClB;AAEO,eAAe;IACpB,IAAI;QACF;IACF,EAAE,OAAO,GAAY;QACnB,IAAI,aAAa,OAAO;YACtB,QAAQ,KAAK,CAAC,gBAAgB,EAAE,KAAK;QACvC;IACF;IAEA,OAAO,IAAI,SAAS;AACtB"}}]
+}
